@@ -7,10 +7,6 @@ int main()
 {
 	Game aGame;
 
-	aGame.add("Chet");
-	aGame.add("Pat");
-	aGame.add("Sue");
-
 	do
 	{
 
@@ -25,5 +21,4 @@ int main()
 			notAWinner = aGame.wasCorrectlyAnswered();
 		}
 	} while (notAWinner);
-
 }
